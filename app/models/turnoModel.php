@@ -1,17 +1,18 @@
 <?php
 
-    require_once('../core/ConexionPDO.php')
+    require_once('../core/ConexionPDO.php');
 
 
-    class Turno extends ConexionPDO(){
+    class TurnoModelo extends ConexionPDO{
         public $id;
         public $fecha;
         public $detalle;
 
         public function listar(){
             $this->query= "SELECT * FROM Turnos";
+            
             $this->getRows();
-            return $this->rows();
+            return $this->rows;
         }
 
         public function actualizar(){

@@ -12,16 +12,17 @@
         protected $rows = array();
 
         //Conexion a la db
-        function __contruct(){
+        function __construct(){
             $this->conectar();
         }
 
         // Inicia conexion
         private function conectar(){
             try {
-                $this->objPDO = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->passord,
+
+                $this->objPDO = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password,
                                     array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8" ) );
-                $this->objPDO->setAttibute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $this->objPDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 $this->estado = 'Conectado';
             } catch (PDOException $e) {
                 echo $e->getMessage();
@@ -36,11 +37,11 @@
         }
         // Ejecutar query para obtener Datos (Rows)
         public function getRows(){
+
             try {
                 $consulta = $this->objPDO->prepare($this->query);
                 $consulta->execute();
-                $this->rows = $consulta->fechAll();
-
+                $this->rows = $consulta->fetchAll(PDO::FETCH_ASSOC);
 
             } catch (PDOException $e) {
                 $this->estado = "ERROR: " . $e->getMessage();
@@ -54,6 +55,4 @@
 
     }
 
-
-    $dbh = new PDO('mysql:host=xxx;port=xxx;dbname=xxx', 'xxx', 'xxx', array( PDO::ATTR_PERSISTENT => false));
 ?>
