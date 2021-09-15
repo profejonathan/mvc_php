@@ -8,8 +8,8 @@
         public $fecha;
         public $detalle;
 
-        public function lisar(){
-            $this->query= "SELECT * FROM Turno";
+        public function listar(){
+            $this->query= "SELECT * FROM Turnos";
             $this->getRows();
             return $this->rows();
         }

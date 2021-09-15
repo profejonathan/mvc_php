@@ -1,0 +1,438 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAF75wjv8pgjcRE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ModeloDatos",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAF75wjv8pgkYVY=",
+					"_parent": {
+						"$ref": "AAAAAAF75wjv8pgjcRE="
+					},
+					"name": "ERDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAF75wkEp5gqxfw=",
+							"_parent": {
+								"$ref": "AAAAAAF75wjv8pgkYVY="
+							},
+							"model": {
+								"$ref": "AAAAAAF75wkEp5goIBo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF75wkEp5grRrI=",
+									"_parent": {
+										"$ref": "AAAAAAF75wkEp5gqxfw="
+									},
+									"font": "Arial;13;1",
+									"left": 56,
+									"top": 173,
+									"width": 216.85595703125,
+									"height": 13,
+									"text": "Turnos"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAF75wkEp5gszlQ=",
+									"_parent": {
+										"$ref": "AAAAAAF75wkEp5gqxfw="
+									},
+									"model": {
+										"$ref": "AAAAAAF75wkEp5goIBo="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF75wktCZg5grE=",
+											"_parent": {
+												"$ref": "AAAAAAF75wkEp5gszlQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF75wks8Jg2gm8="
+											},
+											"font": "Arial;13;0",
+											"left": 61,
+											"top": 196,
+											"width": 206.85595703125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF75wla0phCUdc=",
+											"_parent": {
+												"$ref": "AAAAAAF75wkEp5gszlQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF75wlauZg/bDY="
+											},
+											"font": "Arial;13;0",
+											"left": 61,
+											"top": 211,
+											"width": 206.85595703125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF75wm/UZhdbMY=",
+											"_parent": {
+												"$ref": "AAAAAAF75wkEp5gszlQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF75wm/OJha+sM="
+											},
+											"font": "Arial;13;0",
+											"left": 61,
+											"top": 226,
+											"width": 206.85595703125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF75wpGI5hl13E=",
+											"_parent": {
+												"$ref": "AAAAAAF75wkEp5gszlQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF75wpGBphifuU="
+											},
+											"font": "Arial;13;0",
+											"left": 61,
+											"top": 241,
+											"width": 206.85595703125,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 56,
+									"top": 191,
+									"width": 216.85595703125,
+									"height": 68
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 56,
+							"top": 168,
+							"width": 216.85595703125,
+							"height": 136,
+							"nameLabel": {
+								"$ref": "AAAAAAF75wkEp5grRrI="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAF75wkEp5gszlQ="
+							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAF75w84Q2h5F9w=",
+							"_parent": {
+								"$ref": "AAAAAAF75wjv8pgkYVY="
+							},
+							"model": {
+								"$ref": "AAAAAAF75w84Q2h366A="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF75w84Q2h6j7A=",
+									"_parent": {
+										"$ref": "AAAAAAF75w84Q2h5F9w="
+									},
+									"font": "Arial;13;1",
+									"left": 368,
+									"top": 189,
+									"width": 216.85595703125,
+									"height": 13,
+									"text": "TurnosEstados"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAF75w84Q2h7Jng=",
+									"_parent": {
+										"$ref": "AAAAAAF75w84Q2h5F9w="
+									},
+									"model": {
+										"$ref": "AAAAAAF75w84Q2h366A="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF75w9Q8WiHK2E=",
+											"_parent": {
+												"$ref": "AAAAAAF75w84Q2h7Jng="
+											},
+											"model": {
+												"$ref": "AAAAAAF75w9Qz2iELY4="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 212,
+											"width": 206.85595703125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAF75w+Du2iQQ/E=",
+											"_parent": {
+												"$ref": "AAAAAAF75w84Q2h7Jng="
+											},
+											"model": {
+												"$ref": "AAAAAAF75w+DoGiNK2c="
+											},
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 227,
+											"width": 206.85595703125,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 368,
+									"top": 207,
+									"width": 216.85595703125,
+									"height": 38
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 184,
+							"width": 216.85595703125,
+							"height": 104,
+							"nameLabel": {
+								"$ref": "AAAAAAF75w84Q2h6j7A="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAF75w84Q2h7Jng="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAF75w/tqWieIZ4=",
+							"_parent": {
+								"$ref": "AAAAAAF75wjv8pgkYVY="
+							},
+							"model": {
+								"$ref": "AAAAAAF75w/tqGia8yQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF75w/tqWify/w=",
+									"_parent": {
+										"$ref": "AAAAAAF75w/tqWieIZ4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 320,
+									"top": 214,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF75w/tqWieIZ4="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF75w/tqWigMH8=",
+									"_parent": {
+										"$ref": "AAAAAAF75w/tqWieIZ4="
+									},
+									"font": "Arial;13;0",
+									"left": 297,
+									"top": 214,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF75w/tqWieIZ4="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF75w/tqWihNUo=",
+									"_parent": {
+										"$ref": "AAAAAAF75w/tqWieIZ4="
+									},
+									"font": "Arial;13;0",
+									"left": 342,
+									"top": 214,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF75w/tqWieIZ4="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF75w84Q2h5F9w="
+							},
+							"tail": {
+								"$ref": "AAAAAAF75wkEp5gqxfw="
+							},
+							"lineStyle": 2,
+							"points": "272:235;368:235",
+							"nameLabel": {
+								"$ref": "AAAAAAF75w/tqWify/w="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAF75w/tqWigMH8="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAF75w/tqWihNUo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAF75wkEp5goIBo=",
+					"_parent": {
+						"$ref": "AAAAAAF75wjv8pgjcRE="
+					},
+					"name": "Turnos",
+					"ownedElements": [
+						{
+							"_type": "ERDRelationship",
+							"_id": "AAAAAAF75w/tqGia8yQ=",
+							"_parent": {
+								"$ref": "AAAAAAF75wkEp5goIBo="
+							},
+							"end1": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAF75w/tqGibtBU=",
+								"_parent": {
+									"$ref": "AAAAAAF75w/tqGia8yQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAF75wkEp5goIBo="
+								}
+							},
+							"end2": {
+								"_type": "ERDRelationshipEnd",
+								"_id": "AAAAAAF75w/tqGicBmY=",
+								"_parent": {
+									"$ref": "AAAAAAF75w/tqGia8yQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAF75w84Q2h366A="
+								}
+							}
+						}
+					],
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF75wks8Jg2gm8=",
+							"_parent": {
+								"$ref": "AAAAAAF75wkEp5goIBo="
+							},
+							"name": "TurnoId",
+							"type": "INTEGER",
+							"length": 0,
+							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF75wlauZg/bDY=",
+							"_parent": {
+								"$ref": "AAAAAAF75wkEp5goIBo="
+							},
+							"name": "Descripcion",
+							"type": "VARCHAR",
+							"length": "512"
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF75wm/OJha+sM=",
+							"_parent": {
+								"$ref": "AAAAAAF75wkEp5goIBo="
+							},
+							"name": "Fecha",
+							"type": "DATETIME",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF75wpGBphifuU=",
+							"_parent": {
+								"$ref": "AAAAAAF75wkEp5goIBo="
+							},
+							"name": "EstadoId",
+							"type": "INTEGER",
+							"length": 0,
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAF75w9Qz2iELY4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAF75w84Q2h366A=",
+					"_parent": {
+						"$ref": "AAAAAAF75wjv8pgjcRE="
+					},
+					"name": "TurnosEstados",
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF75w9Qz2iELY4=",
+							"_parent": {
+								"$ref": "AAAAAAF75w84Q2h366A="
+							},
+							"name": "EstadoId",
+							"type": "INTEGER",
+							"length": 0,
+							"primaryKey": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAF75w+DoGiNK2c=",
+							"_parent": {
+								"$ref": "AAAAAAF75w84Q2h366A="
+							},
+							"name": "Descripcion",
+							"type": "VARCHAR",
+							"length": "128"
+						}
+					]
+				}
+			]
+		}
+	]
+}
