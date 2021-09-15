@@ -9,7 +9,7 @@
         public $detalle;
 
         public function lisar(){
-            $this->query= "SELECT * FROM Turnos";
+            $this->query= "SELECT * FROM Turno";
             $this->getRows();
             return $this->rows();
         }
