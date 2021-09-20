@@ -5,4 +5,6 @@
     // Instanciar al controlador y ejecutar el metodo
         // El ctrl va a instalaciar el modelo
             // El modelo se comunica con la DB
+
+    echo ('Nuevo cambio');
 ?>
